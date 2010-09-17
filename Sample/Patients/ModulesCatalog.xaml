@@ -1,0 +1,8 @@
+﻿<Modularity:ModuleCatalog xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+               xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                xmlns:sys="clr-namespace:System;assembly=mscorlib"
+               xmlns:Modularity="clr-namespace:Microsoft.Practices.Composite.Modularity;assembly=Microsoft.Practices.Composite">
+    <Modularity:ModuleInfo Ref="Patients.Client.Modules.Patients.xap" ModuleName="PatientsModules" ModuleType="Patients.Client.Modules.Patients.PatientsModule, Patients.Client.Modules.Patients, Version=1.0.0.0" />
+
+
+</Modularity:ModuleCatalog>

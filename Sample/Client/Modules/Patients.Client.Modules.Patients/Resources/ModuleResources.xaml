@@ -1,0 +1,8 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:Views="clr-namespace:Patients.Client.Modules.Patients.Views;assembly=Patients.Client.Modules.Patients">
+    <DataTemplate x:Key="PatientsViewModel">
+        <Views:PatientsView/>
+    </DataTemplate>
+
+</ResourceDictionary>

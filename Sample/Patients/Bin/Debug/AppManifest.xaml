@@ -1,0 +1,12 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="Patients" EntryPointType="Patients.App" RuntimeVersion="4.0.50401.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="Patients" Source="Patients.dll" />
+    <AssemblyPart x:Name="CodeValue.CodeLight.Client.Foundation" Source="CodeValue.CodeLight.Client.Foundation.dll" />
+    <AssemblyPart x:Name="Microsoft.Practices.Composite" Source="Microsoft.Practices.Composite.dll" />
+    <AssemblyPart x:Name="Microsoft.Practices.Composite.Presentation" Source="Microsoft.Practices.Composite.Presentation.dll" />
+    <AssemblyPart x:Name="Microsoft.Practices.Composite.UnityExtensions" Source="Microsoft.Practices.Composite.UnityExtensions.dll" />
+    <AssemblyPart x:Name="Microsoft.Practices.Unity.Silverlight" Source="Microsoft.Practices.Unity.Silverlight.dll" />
+    <AssemblyPart x:Name="Microsoft.Practices.ServiceLocation" Source="Microsoft.Practices.ServiceLocation.dll" />
+    <AssemblyPart x:Name="System.Windows.Controls" Source="System.Windows.Controls.dll" />
+  </Deployment.Parts>
+</Deployment>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="183e0e9c-0497-4a41-9ff4-f8f3057ff49c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/Patients.Web/PatientsService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PatientsService.xsd" MetadataType="Schema" ID="ef945da4-601d-46fd-a6af-f4e96abf26ca" SourceId="1" SourceUrl="http://localhost/Patients.Web/PatientsService.svc?xsd=xsd1" />
+    <MetadataFile FileName="PatientsService.disco" MetadataType="Disco" ID="abe5a97f-a96b-4b20-b4ea-7cd6a29c2389" SourceId="1" SourceUrl="http://localhost/Patients.Web/PatientsService.svc?disco" />
+    <MetadataFile FileName="PatientsService1.xsd" MetadataType="Schema" ID="c7a68def-997b-4672-b5ad-5a69961a1936" SourceId="1" SourceUrl="http://localhost/Patients.Web/PatientsService.svc?xsd=xsd0" />
+    <MetadataFile FileName="PatientsService.wsdl" MetadataType="Wsdl" ID="4193532f-c3cc-4718-b092-9d3a3dda7978" SourceId="1" SourceUrl="http://localhost/Patients.Web/PatientsService.svc?wsdl" />
+    <MetadataFile FileName="PatientsService2.xsd" MetadataType="Schema" ID="b8e61326-84c8-4006-8854-2c58ddd2ed0e" SourceId="1" SourceUrl="http://localhost/Patients.Web/PatientsService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
